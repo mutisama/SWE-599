@@ -1,0 +1,5 @@
+<launch>
+	<include file="$(find remote_node)/launch/cartographer.launch" />
+	<include file="$(find remote_node)/launch/move_base.launch" />
+	<include file="$(find remote_node)/launch/amcl.launch" />
+</launch>
