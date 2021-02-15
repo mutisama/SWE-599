@@ -1,0 +1,3 @@
+<launch>
+    <node name="controll" pkg="ros_jetbot" type="controll.py"/>
+</launch>

@@ -1,0 +1,6 @@
+<launch>
+	 <include file="$(find jetbot_node)/launch/rplidar.launch" />
+	 <include file="$(find jetbot_node)/launch/rtimulib_ros.launch" />
+	 <include file="$(find jetbot_node)/launch/robot_pose_ekf.launch" />
+	 <include file="$(find jetbot_node)/launch/jetbot.launch" />	 
+</launch>
