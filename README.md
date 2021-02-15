@@ -26,4 +26,4 @@ In order to start the ROS that are necessary for slam, please follow the steps:
 
 ***For cartographer slam***
 
-2- `roslaunch remote_node run_cartographer.launch` (this will start all of the necessary ros nodes for cartographer slam)
+3- `roslaunch remote_node run_cartographer.launch` (this will start all of the necessary ros nodes for cartographer slam)
